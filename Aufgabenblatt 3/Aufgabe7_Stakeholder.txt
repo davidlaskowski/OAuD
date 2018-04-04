@@ -1,0 +1,31 @@
+Endanwender
+    Studierende
+    Studiensekretariat
+    Veranstallter
+Management des Auftragnehmers
+    Unser Management
+Käufer des Systems
+    Verwaltung der Universität
+Prüfer, Auditoren
+    Datenschutzbeauftragter
+    Quality Management
+    IT-Security Beauftragter
+Entwickler
+    Wir
+    Mailsystem Entwickler
+Wartungs- und Servicepersonal
+    Ansprechpartner Belestud
+Produktbeseitiger
+    Datenschutzbeauftragter
+Schulungs- und Trainingspersonal
+    Personal der Universität
+    Beauftragter von uns
+Systemschützer
+    IT-Sicherheit
+    IT-Support
+Standards und Gesetze
+    Datenschutzgesetze
+Kulturkreis
+    Gleichberechtigungsbeauftrager
+Meinungsführer und die öffentliche Meinung
+    Pressebeauftrager

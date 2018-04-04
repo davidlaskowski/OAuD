@@ -1,0 +1,3 @@
+Multimenge
+
+Elemente können gegenüber der normalen Menge auch mehrmals in einer Multimenge vorkommen.

@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%201/Aufgabe_3_ooadAufgabeBuilder/ooadAufgabeBuilder/src/main/Main.java</file>
+            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%201/Aufgabe_3_ooadAufgabeBuilder/ooadAufgabeBuilder/src/builder/MitarbeiterBuilder.java</file>
+            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%201/Aufgabe_3_ooadAufgabeBuilder/ooadAufgabeBuilder/src/entity/Fachgebiet.java</file>
+            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%201/Aufgabe_3_ooadAufgabeBuilder/ooadAufgabeBuilder/src/entity/Mitarbeiter.java</file>
+        </group>
     </open-files>
 </project-private>

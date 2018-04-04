@@ -5,7 +5,7 @@ import entity.Mitarbeiter;
 
 
 public class MitarbeiterBuilder {
-    Mitarbeiter mitarbeiter;
+    private Mitarbeiter mitarbeiter;
     
     public static MitarbeiterBuilder createBuilder(){
         MitarbeiterBuilder mitarbeiterBuilder = new MitarbeiterBuilder();

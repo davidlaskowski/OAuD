@@ -14,14 +14,14 @@ fontsize=14
 // Select "Custom elements &gt; New..." to create new element types.
 //
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>140</y>
-      <w>140</w>
-      <h>70</h>
+      <x>657</x>
+      <y>126</y>
+      <w>126</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [supportberechtigt]</panel_attributes>
@@ -30,10 +30,10 @@ fontsize=14
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>230</y>
-      <w>30</w>
-      <h>60</h>
+      <x>657</x>
+      <y>207</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -41,10 +41,10 @@ fontsize=14
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>500</x>
-      <y>510</y>
-      <w>210</w>
-      <h>90</h>
+      <x>450</x>
+      <y>459</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=[Funktionalität existiert nicht]
@@ -54,10 +54,10 @@ r1pos=-190,5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>80</y>
-      <w>30</w>
-      <h>50</h>
+      <x>657</x>
+      <y>72</y>
+      <w>27</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -65,10 +65,10 @@ r1pos=-190,5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>10</y>
-      <w>30</w>
-      <h>60</h>
+      <x>657</x>
+      <y>9</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -76,10 +76,10 @@ r1pos=-190,5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>350</y>
-      <w>230</w>
-      <h>80</h>
+      <x>459</x>
+      <y>315</y>
+      <w>207</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r1=[Frage nach Funktionalität]
@@ -89,10 +89,10 @@ r1pos=-180,5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>120</y>
-      <w>490</w>
-      <h>50</h>
+      <x>225</x>
+      <y>108</y>
+      <w>441</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m2=[nicht supportberechtigt]</panel_attributes>
@@ -101,10 +101,10 @@ m2=[nicht supportberechtigt]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>320</y>
-      <w>30</w>
-      <h>70</h>
+      <x>225</x>
+      <y>288</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -112,10 +112,10 @@ m2=[nicht supportberechtigt]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>410</y>
-      <w>30</w>
-      <h>70</h>
+      <x>225</x>
+      <y>369</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -123,10 +123,10 @@ m2=[nicht supportberechtigt]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>180</x>
-      <y>290</y>
-      <w>150</w>
-      <h>40</h>
+      <x>162</x>
+      <y>261</y>
+      <w>135</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Ablehnungsinformation
 an Sender schicken</panel_attributes>
@@ -135,10 +135,10 @@ an Sender schicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>670</x>
-      <y>190</y>
-      <w>140</w>
-      <h>50</h>
+      <x>603</x>
+      <y>171</y>
+      <w>126</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Eingangsbestätigung
 mit Vorgangsnummer
@@ -148,10 +148,10 @@ verschicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>190</x>
-      <y>370</y>
-      <w>140</w>
-      <h>50</h>
+      <x>171</x>
+      <y>333</y>
+      <w>126</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>E-Mail in Verteiler
 Produktinteressierte
@@ -161,10 +161,10 @@ aufnehmen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>590</x>
-      <y>410</y>
-      <w>190</w>
-      <h>40</h>
+      <x>531</x>
+      <y>369</y>
+      <w>171</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>E-Mail an Support-Desk
 "Funktionalität" weiterleiten</panel_attributes>
@@ -173,10 +173,10 @@ aufnehmen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>680</x>
-      <y>270</y>
-      <w>130</w>
-      <h>40</h>
+      <x>612</x>
+      <y>243</y>
+      <w>117</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Anfragenart prüfen</panel_attributes>
     <additional_attributes/>
@@ -184,10 +184,10 @@ aufnehmen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>610</x>
-      <y>580</y>
-      <w>170</w>
-      <h>70</h>
+      <x>549</x>
+      <y>522</y>
+      <w>153</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Kunden über fehlende
 Funktionalität informieren,
@@ -198,10 +198,10 @@ Entwicklung</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>610</x>
-      <y>900</y>
-      <w>170</w>
-      <h>60</h>
+      <x>549</x>
+      <y>810</y>
+      <w>153</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Funktionalität in Liste mit
 möglichen Erweiterungen
@@ -211,10 +211,10 @@ eintragen</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1240</x>
-      <y>600</y>
-      <w>140</w>
-      <h>40</h>
+      <x>1116</x>
+      <y>540</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Manualreferenz als
 Antwort schicken</panel_attributes>
@@ -223,10 +223,10 @@ Antwort schicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1190</x>
-      <y>400</y>
-      <w>170</w>
-      <h>40</h>
+      <x>1071</x>
+      <y>360</y>
+      <w>153</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>E-Mail an Support-Desk
 "Bedienung" weiterleiten</panel_attributes>
@@ -235,10 +235,10 @@ Antwort schicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1410</x>
-      <y>600</y>
-      <w>120</w>
-      <h>50</h>
+      <x>1269</x>
+      <y>540</y>
+      <w>108</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Bedienschritte
 aufschreiben und
@@ -248,10 +248,10 @@ abschicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>1400</x>
-      <y>740</y>
-      <w>130</w>
-      <h>40</h>
+      <x>1260</x>
+      <y>666</y>
+      <w>117</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Beschreibung
 in FAQ einarbeiten</panel_attributes>
@@ -260,10 +260,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>300</y>
-      <w>30</w>
-      <h>60</h>
+      <x>657</x>
+      <y>270</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -271,10 +271,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>440</y>
-      <w>30</w>
-      <h>60</h>
+      <x>612</x>
+      <y>396</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -282,10 +282,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>640</y>
-      <w>30</w>
-      <h>70</h>
+      <x>612</x>
+      <y>576</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -293,10 +293,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>950</y>
-      <w>30</w>
-      <h>120</h>
+      <x>612</x>
+      <y>855</y>
+      <w>27</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
@@ -304,10 +304,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
-      <y>340</y>
-      <w>530</w>
-      <h>40</h>
+      <x>675</x>
+      <y>306</y>
+      <w>477</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Frage nach Bedienung]</panel_attributes>
@@ -316,10 +316,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1270</x>
-      <y>370</y>
-      <w>30</w>
-      <h>50</h>
+      <x>1143</x>
+      <y>333</y>
+      <w>27</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -327,10 +327,10 @@ in FAQ einarbeiten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>290</y>
-      <w>600</w>
-      <h>230</h>
+      <x>630</x>
+      <y>261</y>
+      <w>540</w>
+      <h>207</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=[Funktionalität vorhanden] </panel_attributes>
@@ -339,10 +339,10 @@ r2=[Funktionalität vorhanden] </panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1270</x>
-      <y>430</y>
-      <w>160</w>
-      <h>110</h>
+      <x>1143</x>
+      <y>387</y>
+      <w>144</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>140.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
@@ -350,10 +350,10 @@ r2=[Funktionalität vorhanden] </panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1300</x>
-      <y>630</y>
-      <w>30</w>
-      <h>60</h>
+      <x>1170</x>
+      <y>567</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -361,10 +361,10 @@ r2=[Funktionalität vorhanden] </panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1460</x>
-      <y>640</y>
-      <w>30</w>
-      <h>120</h>
+      <x>1314</x>
+      <y>576</y>
+      <w>27</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
@@ -372,10 +372,10 @@ r2=[Funktionalität vorhanden] </panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1460</x>
-      <y>770</y>
-      <w>30</w>
-      <h>70</h>
+      <x>1314</x>
+      <y>693</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -383,10 +383,10 @@ r2=[Funktionalität vorhanden] </panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1300</x>
-      <y>530</y>
-      <w>110</w>
-      <h>90</h>
+      <x>1170</x>
+      <y>477</y>
+      <w>99</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [bereits
@@ -396,10 +396,10 @@ dokumentiert]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1420</x>
-      <y>530</y>
-      <w>150</w>
-      <h>90</h>
+      <x>1278</x>
+      <y>477</y>
+      <w>135</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [nicht
@@ -409,10 +409,10 @@ dokumentiert]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>660</x>
-      <y>50</y>
-      <w>150</w>
-      <h>40</h>
+      <x>594</x>
+      <y>45</y>
+      <w>135</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Eingang einer E-Mail-
 Supportanfrage</panel_attributes>
@@ -421,10 +421,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>720</x>
-      <y>110</y>
-      <w>40</w>
-      <h>40</h>
+      <x>648</x>
+      <y>99</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -432,10 +432,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>720</x>
-      <y>340</y>
-      <w>40</w>
-      <h>40</h>
+      <x>648</x>
+      <y>306</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -443,10 +443,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>670</x>
-      <y>480</y>
-      <w>40</w>
-      <h>40</h>
+      <x>603</x>
+      <y>432</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -454,10 +454,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1260</x>
-      <y>340</y>
-      <w>40</w>
-      <h>40</h>
+      <x>1134</x>
+      <y>306</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -465,10 +465,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1390</x>
-      <y>520</y>
-      <w>40</w>
-      <h>40</h>
+      <x>1251</x>
+      <y>468</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -476,10 +476,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>730</x>
+      <x>657</x>
       <y>0</y>
-      <w>20</w>
-      <h>20</h>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -487,10 +487,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>250</x>
-      <y>460</y>
-      <w>20</w>
-      <h>20</h>
+      <x>225</x>
+      <y>414</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -498,10 +498,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>680</x>
-      <y>1050</y>
-      <w>20</w>
-      <h>20</h>
+      <x>612</x>
+      <y>945</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -509,10 +509,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1300</x>
-      <y>670</y>
-      <w>20</w>
-      <h>20</h>
+      <x>1170</x>
+      <y>603</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -520,10 +520,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1460</x>
-      <y>820</y>
-      <w>20</w>
-      <h>20</h>
+      <x>1314</x>
+      <y>738</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -531,10 +531,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>670</x>
-      <y>690</y>
-      <w>40</w>
-      <h>40</h>
+      <x>603</x>
+      <y>621</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -542,10 +542,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>720</y>
-      <w>210</w>
-      <h>130</h>
+      <x>612</x>
+      <y>648</y>
+      <w>189</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Funktionalität nicht geplannt]</panel_attributes>
@@ -554,10 +554,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>700</y>
-      <w>190</w>
-      <h>70</h>
+      <x>459</x>
+      <y>630</y>
+      <w>171</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Funktionalität ist geplannt]</panel_attributes>
@@ -566,10 +566,10 @@ Supportanfrage</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>440</x>
-      <y>750</y>
-      <w>150</w>
-      <h>70</h>
+      <x>396</x>
+      <y>675</y>
+      <w>135</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Information das 
 Funktionalität geplannt
@@ -579,10 +579,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>810</y>
-      <w>30</w>
-      <h>70</h>
+      <x>459</x>
+      <y>729</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -590,10 +590,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>510</x>
-      <y>860</y>
-      <w>20</w>
-      <h>20</h>
+      <x>459</x>
+      <y>774</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -601,10 +601,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>240</x>
-      <y>220</y>
-      <w>40</w>
-      <h>40</h>
+      <x>216</x>
+      <y>198</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -612,10 +612,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
-      <y>160</y>
-      <w>1290</w>
-      <h>220</h>
+      <x>306</x>
+      <y>144</y>
+      <w>1161</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Enthält nicht dokumentierte Bedienanfragen</panel_attributes>
@@ -624,10 +624,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>250</y>
-      <w>350</w>
-      <h>60</h>
+      <x>225</x>
+      <y>225</y>
+      <w>315</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Enthält keine nicht dokumentierten Bedienanfragen]</panel_attributes>
@@ -636,10 +636,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>730</x>
-      <y>370</y>
-      <w>360</w>
-      <h>190</h>
+      <x>657</x>
+      <y>333</y>
+      <w>324</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Fehlermeldung]</panel_attributes>
@@ -648,10 +648,10 @@ ist an Sender schicken</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>910</x>
-      <y>540</y>
-      <w>110</w>
-      <h>50</h>
+      <x>819</x>
+      <y>486</y>
+      <w>99</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Überprüfung des 
 Fehlers</panel_attributes>
@@ -660,10 +660,10 @@ Fehlers</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>580</y>
-      <w>30</w>
-      <h>60</h>
+      <x>864</x>
+      <y>522</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -671,10 +671,10 @@ Fehlers</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>950</x>
-      <y>620</y>
-      <w>40</w>
-      <h>40</h>
+      <x>855</x>
+      <y>558</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -682,10 +682,10 @@ Fehlers</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>350</y>
-      <w>300</w>
-      <h>310</h>
+      <x>882</x>
+      <y>315</y>
+      <w>270</w>
+      <h>279</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 r2=[Fehler ist ein Bedienproblem]</panel_attributes>
@@ -694,10 +694,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>650</y>
-      <w>220</w>
-      <h>110</h>
+      <x>864</x>
+      <y>585</y>
+      <w>198</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 [Fehler ist kein Bedienproblem]</panel_attributes>
@@ -706,10 +706,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>890</x>
-      <y>740</y>
-      <w>160</w>
-      <h>40</h>
+      <x>801</x>
+      <y>666</y>
+      <w>144</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Problembericht anlegen</panel_attributes>
     <additional_attributes/>
@@ -717,10 +717,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>770</y>
-      <w>290</w>
-      <h>100</h>
+      <x>630</x>
+      <y>693</y>
+      <w>261</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;270.0;80.0;270.0;10.0</additional_attributes>
@@ -728,10 +728,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1490</x>
-      <y>400</y>
-      <w>140</w>
-      <h>40</h>
+      <x>1341</x>
+      <y>360</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Bedienungssupport</panel_attributes>
     <additional_attributes/>
@@ -739,10 +739,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>290</x>
-      <y>590</y>
-      <w>140</w>
-      <h>40</h>
+      <x>261</x>
+      <y>531</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Entwicklungssupport</panel_attributes>
     <additional_attributes/>
@@ -750,10 +750,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>600</y>
-      <w>210</w>
-      <h>30</h>
+      <x>378</x>
+      <y>540</y>
+      <w>189</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
@@ -761,10 +761,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1010</x>
-      <y>550</y>
-      <w>160</w>
-      <h>110</h>
+      <x>909</x>
+      <y>495</y>
+      <w>144</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;140.0;10.0;140.0;90.0</additional_attributes>
@@ -772,10 +772,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1350</x>
-      <y>410</y>
-      <w>160</w>
-      <h>30</h>
+      <x>1215</x>
+      <y>369</y>
+      <w>144</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
@@ -783,10 +783,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>900</x>
-      <y>190</y>
-      <w>140</w>
-      <h>40</h>
+      <x>810</x>
+      <y>171</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Supportkoordination</panel_attributes>
     <additional_attributes/>
@@ -794,10 +794,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>60</y>
-      <w>190</w>
-      <h>150</h>
+      <x>720</x>
+      <y>54</y>
+      <w>171</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;170.0;10.0;170.0;130.0</additional_attributes>
@@ -805,10 +805,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>180</x>
-      <y>150</y>
-      <w>170</w>
-      <h>40</h>
+      <x>162</x>
+      <y>135</y>
+      <w>153</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Supportanfrage überprüfen</panel_attributes>
     <additional_attributes/>
@@ -816,10 +816,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>180</y>
-      <w>30</w>
-      <h>60</h>
+      <x>225</x>
+      <y>162</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -828,9 +828,9 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>0</x>
-      <y>220</y>
-      <w>140</w>
-      <h>40</h>
+      <y>198</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Supportkoordination</panel_attributes>
     <additional_attributes/>
@@ -838,10 +838,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>160</y>
-      <w>140</w>
-      <h>80</h>
+      <x>54</x>
+      <y>144</y>
+      <w>126</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>120.0;10.0;10.0;10.0;10.0;60.0</additional_attributes>
@@ -849,10 +849,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>130</x>
-      <y>380</y>
-      <w>80</w>
-      <h>30</h>
+      <x>117</x>
+      <y>342</y>
+      <w>72</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
@@ -861,9 +861,9 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>0</x>
-      <y>370</y>
-      <w>140</w>
-      <h>40</h>
+      <y>333</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>E-Mail Verteiler</panel_attributes>
     <additional_attributes/>
@@ -871,10 +871,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>620</y>
-      <w>110</w>
-      <h>180</h>
+      <x>315</x>
+      <y>558</y>
+      <w>99</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>90.0;160.0;10.0;160.0;10.0;10.0</additional_attributes>
@@ -882,10 +882,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>200</y>
-      <w>120</w>
-      <h>30</h>
+      <x>720</x>
+      <y>180</y>
+      <w>108</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
@@ -893,10 +893,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>220</y>
-      <w>190</w>
-      <h>90</h>
+      <x>720</x>
+      <y>198</y>
+      <w>171</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;70.0;170.0;70.0;170.0;10.0</additional_attributes>
@@ -904,10 +904,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>420</y>
-      <w>260</w>
-      <h>190</h>
+      <x>315</x>
+      <y>378</y>
+      <w>234</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>240.0;10.0;10.0;10.0;10.0;170.0</additional_attributes>
@@ -915,10 +915,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>250</y>
-      <w>140</w>
-      <h>80</h>
+      <x>54</x>
+      <y>225</y>
+      <w>126</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>120.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
@@ -926,10 +926,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1090</x>
-      <y>640</y>
-      <w>140</w>
-      <h>40</h>
+      <x>981</x>
+      <y>576</y>
+      <w>126</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Entwicklungssupport</panel_attributes>
     <additional_attributes/>
@@ -937,10 +937,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1040</x>
-      <y>670</y>
-      <w>130</w>
-      <h>110</h>
+      <x>936</x>
+      <y>603</y>
+      <w>117</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;90.0;110.0;90.0;110.0;10.0</additional_attributes>
@@ -948,10 +948,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1370</x>
-      <y>430</y>
-      <w>160</w>
-      <h>210</h>
+      <x>1233</x>
+      <y>387</y>
+      <w>144</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;190.0;140.0;10.0</additional_attributes>
@@ -959,10 +959,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1520</x>
-      <y>430</y>
-      <w>60</w>
-      <h>210</h>
+      <x>1368</x>
+      <y>387</y>
+      <w>54</w>
+      <h>189</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;190.0;40.0;190.0;40.0;10.0</additional_attributes>
@@ -970,10 +970,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1520</x>
-      <y>430</y>
-      <w>80</w>
-      <h>350</h>
+      <x>1368</x>
+      <y>387</y>
+      <w>72</w>
+      <h>315</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;330.0;60.0;330.0;60.0;10.0</additional_attributes>
@@ -981,32 +981,21 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>620</y>
-      <w>280</w>
-      <h>330</h>
+      <x>315</x>
+      <y>558</y>
+      <w>252</w>
+      <h>297</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>260.0;310.0;10.0;310.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1660</x>
-      <y>100</y>
-      <w>100</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>state</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1610</x>
-      <y>660</y>
-      <w>100</w>
-      <h>40</h>
+      <x>1449</x>
+      <y>594</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>FAQ</panel_attributes>
     <additional_attributes/>
@@ -1014,10 +1003,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1480</x>
-      <y>640</y>
-      <w>150</w>
-      <h>60</h>
+      <x>1332</x>
+      <y>576</y>
+      <w>135</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>130.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
@@ -1025,10 +1014,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1480</x>
-      <y>690</y>
-      <w>200</w>
-      <h>70</h>
+      <x>1332</x>
+      <y>621</y>
+      <w>180</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;30.0;180.0;30.0;180.0;10.0</additional_attributes>
@@ -1036,10 +1025,10 @@ r2=[Fehler ist ein Bedienproblem]</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>880</x>
-      <y>900</y>
-      <w>170</w>
-      <h>50</h>
+      <x>792</x>
+      <y>810</y>
+      <w>153</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Liste mit geplanntenen
 Funktionalitäten</panel_attributes>
@@ -1048,10 +1037,10 @@ Funktionalitäten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>920</y>
-      <w>130</w>
-      <h>30</h>
+      <x>693</x>
+      <y>828</y>
+      <w>117</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
@@ -1059,10 +1048,10 @@ Funktionalitäten</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>1060</x>
-      <y>820</y>
-      <w>100</w>
-      <h>40</h>
+      <x>954</x>
+      <y>738</y>
+      <w>90</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Problembericht</panel_attributes>
     <additional_attributes/>
@@ -1070,10 +1059,10 @@ Funktionalitäten</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
-      <y>770</y>
-      <w>100</w>
-      <h>90</h>
+      <x>882</x>
+      <y>693</y>
+      <w>90</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>80.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
@@ -1081,34 +1070,34 @@ Funktionalitäten</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>670</x>
-      <y>830</y>
-      <w>40</w>
-      <h>40</h>
+      <x>603</x>
+      <y>747</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLSpecialState</id>
+    <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>1080</y>
-      <w>20</w>
-      <h>20</h>
+      <x>612</x>
+      <y>774</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>860</y>
-      <w>30</w>
-      <h>60</h>
+      <x>666</x>
+      <y>765</y>
+      <w>351</w>
+      <h>63</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;30.0;370.0;30.0;370.0;10.0</additional_attributes>
   </element>
 </diagram>

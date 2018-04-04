@@ -1,0 +1,33 @@
+#Kunde
+
+Bestellung aufgeben
+
+	Bestellung per Post
+	
+	Bestellung Online
+
+
+#Zulieferer
+
+Waren anliefern
+
+#Lagerverwaltung
+
+Waren indizieren
+
+Waren ausliefern
+
+#System
+
+Ware aus Lager anfragen
+
+
+
+#Abrechnungsmodull
+
+Zahlung anfordern
+
+Zahlung bestätigen
+
+
+

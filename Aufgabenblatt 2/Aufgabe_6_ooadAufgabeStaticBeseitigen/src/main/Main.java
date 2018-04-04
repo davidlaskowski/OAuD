@@ -41,7 +41,6 @@ public class Main {
              if (eingabe == 2) {
                 System.out.print("Matrikelnummer: ");
                 int matnr = Eingabe.leseInt();
-                int ergebnis = 0;
                 Student tempStudent = verwaltung.getStudent(matnr);
                 if(tempStudent != null){
                     System.out.println(tempStudent.toString());
