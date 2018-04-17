@@ -14,17 +14,20 @@ public class Karte {
         Wert[] we = {Wert.SIEBEN, Wert.ACHT, Wert.NEUN, Wert.ZEHN, Wert.BUBE, Wert.DAME, Wert.KOENIG, Wert.AS};
         this.farbe = fa[f];
         this.wert = we[w];
+        
     }
     
     public Wert getWert(){
-        return wert;
+        return this.wert;
     }
     
     public Farbe getFarbe(){
-        return farbe;
+        return this.farbe;
     }
     
+    /*@Override*/
     public String toString(){
-        return "[" + farbe + " " + wert + "]";
+        return "[" + this.farbe + " " + this.wert + "]";
     }
+    
 }

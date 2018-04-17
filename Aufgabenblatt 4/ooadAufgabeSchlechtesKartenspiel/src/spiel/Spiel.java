@@ -1,3 +1,17 @@
+/*
+b) Regelverstoß:
+    - keine sprechende Namen
+    - nicht eine Sprache (toString, Karte)
+    - ! bei allen aus mehreren Wörtern zusammengesetzten Namen werden ab dem zweiten Wort
+      die ersten Buchstaben jeweils großgeschrieben (k1anz)
+    - Schlüsselwort this verwenden (return wert;)
+    - Jede Variable wird in einer eigenen Zeile deklariert (KARO("Karo"), HERZ("Herz"), KREUZ("Kreuz"), PIK("Pik");)
+    - Der break-Befehl wird ausschließlich in switch-case-Befehlen genutzt (if(...){..breake;})
+    - doppeldeklaration (global variable pos & lokale pos)
+    - @Override vergessen bei toString
+    - ähnlicher Code doppelt
+*/
+
 package spiel;
 
 import java.util.Scanner;
@@ -47,6 +61,7 @@ public class Spiel {
         sanz = 21;
 
         while (true) {
+            //spieler
             System.out.println("Auf dem Tisch liegt: " + karte);
             System.out.print("Ihre Karten: [ ");
             for (zaehler1 = 0; zaehler1 < k1anz; zaehler1++) {
@@ -54,7 +69,7 @@ public class Spiel {
             }
             System.out.println("]");
 
-            aanz = 0;
+            aanz = 0; // kann ich was machen? aanz = 0 ->nein
             for (zaehler1 = 0; zaehler1 < k1anz; zaehler1++) {
                 if (k1[zaehler1].getFarbe() == karte.getFarbe() || k1[zaehler1].getWert() == karte.getWert()) {
                     ableg[aanz++] = zaehler1;
@@ -82,7 +97,7 @@ public class Spiel {
                 if (eingabe < 0 || eingabe > aanz) {
                     eingabe = 0;
                 }
-                if (eingabe == 0) {
+                if (eingabe == 0) { // ziehen
                     System.out.println("Sie ziehen.");
                     if (sanz == 0) {
                         System.out.println("Keine Karten mehr da, Unentschieden.");
@@ -95,7 +110,7 @@ public class Spiel {
                         }
                         sanz--;
                     }
-                } else {
+                } else { // karte ablegen
                     karte = k1[ableg[eingabe - 1]];
                     for (zaehler1 = ableg[eingabe - 1]; zaehler1 < k1anz - 1; zaehler1++) {
                         k1[zaehler1] = k1[zaehler1 + 1];
@@ -107,7 +122,8 @@ public class Spiel {
                     }
                 }
             }
-
+            
+            //computer
             aanz = 0;
             for (zaehler1 = 0; zaehler1 < k2anz; zaehler1++) {
                 if (k2[zaehler1].getFarbe() == karte.getFarbe() || k2[zaehler1].getWert() == karte.getWert()) {
