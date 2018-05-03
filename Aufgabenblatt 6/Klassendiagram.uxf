@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>390</y>
-      <w>260</w>
-      <h>180</h>
+      <x>658</x>
+      <y>252</y>
+      <w>189</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>Depot
 --
@@ -17,27 +17,28 @@
 -list&lt;Depotposten&gt;
 --
 +depotpostenSuchen(int): Depotposten
-+neuenDepotenAnlegen(int, int): void
++neuenDepotpostenAnlegen(int, int): void
 +gibtEsAktienID(int): boolean
 +prüfungBarreserve(): void
++Depot(int, int, int):Depot
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>60</y>
-      <w>280</w>
-      <h>130</h>
+      <x>322</x>
+      <y>21</y>
+      <w>196</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>Aktienverwaltung
 --
-
+-list&lt;Aktie&gt;
 --
 +aktieSuchen(int): Aktie
 +neueAktieAnlegen(int, String, int, int): void
-+aktieBearbeiten(int): Aktie
++aktieBearbeiten(int, int, int): Aktie
 +aktieAnzeigen(int): Aktie
 style=autoresize</panel_attributes>
     <additional_attributes/>
@@ -45,10 +46,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>380</y>
-      <w>130</w>
-      <h>130</h>
+      <x>322</x>
+      <y>245</y>
+      <w>140</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Aktie
 --
@@ -57,6 +58,7 @@ style=autoresize</panel_attributes>
 -verkaufsPreis: int
 -einkaufsPreis: int
 --
++Aktie(int, String, int, int):Aktie
 +toString(): String
 style=autoresize</panel_attributes>
     <additional_attributes/>
@@ -64,29 +66,30 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>60</y>
-      <w>250</w>
-      <h>130</h>
+      <x>658</x>
+      <y>21</y>
+      <w>224</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Depotverwaltung
 --
-
+-list&lt;Depot&gt;
 --
 +depotSuchen(int): Depot
-+neuesDepotAnlegen(int, int, int): void
++neuesDepotAnlegen(int, int, int): Depot
 +depotBearbeiten(int): Depot
 +depotAnzeigen(int): Depot
++neuenDepotpostenAnlegen(Depot, int, int): void
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>680</y>
-      <w>210</w>
-      <h>140</h>
+      <x>658</x>
+      <y>455</y>
+      <w>154</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Depotposten	
 --
@@ -97,16 +100,17 @@ style=autoresize</panel_attributes>
 --
 +toString(): String
 +aktienAnzahlAendern(int): void
+Depotposten(int, int):Depotposten
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>180</y>
-      <w>60</w>
-      <h>220</h>
+      <x>385</x>
+      <y>105</y>
+      <w>42</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 -aktie
@@ -116,50 +120,50 @@ m1=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>180</y>
-      <w>70</w>
-      <h>230</h>
+      <x>728</x>
+      <y>112</y>
+      <w>49</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 -depot
 m1=*</panel_attributes>
-    <additional_attributes>10.0;210.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>560</y>
-      <w>120</w>
-      <h>140</h>
+      <x>728</x>
+      <y>378</y>
+      <w>84</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;
 
 m1=* -depotposten
 m2=1 -depot</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>500</y>
-      <w>380</w>
-      <h>260</h>
+      <x>455</x>
+      <y>336</y>
+      <w>217</w>
+      <h>175</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 -aktie
 m1=*</panel_attributes>
-    <additional_attributes>10.0;10.0;360.0;240.0</additional_attributes>
+    <additional_attributes>10.0;10.0;290.0;230.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>180</x>
-      <y>130</y>
-      <w>80</w>
-      <h>40</h>
+      <x>189</x>
+      <y>70</y>
+      <w>56</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A2.3, A2.4
 style=autoresize</panel_attributes>
@@ -168,10 +172,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>120</y>
-      <w>140</w>
-      <h>50</h>
+      <x>238</x>
+      <y>63</y>
+      <w>98</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>120.0;10.0;10.0;30.0</additional_attributes>
@@ -179,10 +183,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>100</y>
-      <w>140</w>
-      <h>40</h>
+      <x>238</x>
+      <y>49</y>
+      <w>98</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>120.0;20.0;10.0;10.0</additional_attributes>
@@ -190,10 +194,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>180</x>
-      <y>90</y>
-      <w>80</w>
-      <h>40</h>
+      <x>189</x>
+      <y>42</y>
+      <w>56</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A2.5 - A2.7
 style=autoresize</panel_attributes>
@@ -203,20 +207,20 @@ style=autoresize</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>210</x>
-      <y>340</y>
-      <w>180</w>
-      <h>170</h>
+      <y>217</y>
+      <w>126</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>160.0;150.0;10.0;10.0</additional_attributes>
+    <additional_attributes>160.0;160.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>180</x>
-      <y>170</y>
-      <w>90</w>
-      <h>40</h>
+      <x>189</x>
+      <y>98</y>
+      <w>63</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A2.9, A2.10
 style=autoresize</panel_attributes>
@@ -225,10 +229,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>140</y>
-      <w>130</w>
-      <h>70</h>
+      <x>245</x>
+      <y>77</y>
+      <w>91</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;50.0</additional_attributes>
@@ -236,21 +240,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1090</x>
-      <y>130</y>
-      <w>140</w>
-      <h>40</h>
+      <x>875</x>
+      <y>70</y>
+      <w>49</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1210</x>
-      <y>130</y>
-      <w>80</w>
-      <h>40</h>
+      <x>910</x>
+      <y>70</y>
+      <w>56</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.3, A3.4
 style=autoresize</panel_attributes>
@@ -259,21 +263,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1090</x>
-      <y>100</y>
-      <w>140</w>
-      <h>40</h>
+      <x>875</x>
+      <y>49</y>
+      <w>49</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;20.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1210</x>
-      <y>90</y>
-      <w>80</w>
-      <h>40</h>
+      <x>910</x>
+      <y>42</y>
+      <w>56</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.5 - A3.7
 style=autoresize</panel_attributes>
@@ -282,10 +286,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1210</x>
-      <y>180</y>
-      <w>40</w>
-      <h>40</h>
+      <x>910</x>
+      <y>105</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.8
 style=autoresize</panel_attributes>
@@ -294,21 +298,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1090</x>
-      <y>160</y>
-      <w>140</w>
-      <h>60</h>
+      <x>875</x>
+      <y>91</y>
+      <w>49</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;50.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1220</x>
-      <y>450</y>
-      <w>130</w>
-      <h>40</h>
+      <x>917</x>
+      <y>294</y>
+      <w>91</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.9, A3.14, A3.15
 style=autoresize</panel_attributes>
@@ -317,32 +321,32 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>460</y>
-      <w>140</w>
-      <h>80</h>
+      <x>840</x>
+      <y>301</y>
+      <w>91</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;60.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>510</y>
-      <w>140</w>
-      <h>40</h>
+      <x>840</x>
+      <y>336</y>
+      <w>91</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;20.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1220</x>
-      <y>500</y>
-      <w>90</w>
-      <h>40</h>
+      <x>917</x>
+      <y>329</y>
+      <w>63</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.9 - A3.11
 style=autoresize</panel_attributes>
@@ -351,10 +355,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1220</x>
-      <y>550</y>
-      <w>210</w>
-      <h>40</h>
+      <x>917</x>
+      <y>364</y>
+      <w>147</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A3.12, A3.13, A4.5, A4.6, A4.7
 style=autoresize</panel_attributes>
@@ -363,21 +367,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>530</y>
-      <w>140</w>
-      <h>60</h>
+      <x>840</x>
+      <y>350</y>
+      <w>91</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1220</x>
-      <y>400</y>
-      <w>80</w>
-      <h>40</h>
+      <x>917</x>
+      <y>259</y>
+      <w>56</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A4.1, A4.2
 style=autoresize</panel_attributes>
@@ -386,21 +390,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1100</x>
-      <y>420</y>
-      <w>140</w>
-      <h>100</h>
+      <x>840</x>
+      <y>273</y>
+      <w>91</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;80.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1180</x>
-      <y>760</y>
-      <w>40</w>
-      <h>40</h>
+      <x>889</x>
+      <y>511</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A4.3
 style=autoresize</panel_attributes>
@@ -409,21 +413,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>770</y>
-      <w>150</w>
-      <h>40</h>
+      <x>805</x>
+      <y>518</y>
+      <w>98</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;20.0;120.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1180</x>
-      <y>800</y>
-      <w>120</w>
-      <h>40</h>
+      <x>889</x>
+      <y>539</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A4.4, A4.8, A4.9
 style=autoresize</panel_attributes>
@@ -432,21 +436,21 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>800</y>
-      <w>150</w>
-      <h>30</h>
+      <x>805</x>
+      <y>539</y>
+      <w>98</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>180</x>
-      <y>330</y>
-      <w>40</w>
-      <h>40</h>
+      <x>189</x>
+      <y>210</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>A2.8
 style=autoresize</panel_attributes>
@@ -456,11 +460,33 @@ style=autoresize</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>210</x>
-      <y>160</y>
-      <w>180</w>
-      <h>210</h>
+      <y>91</y>
+      <w>126</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>160.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>238</x>
+      <y>84</y>
+      <w>98</w>
+      <h>245</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>120.0;330.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>868</x>
+      <y>105</y>
+      <w>63</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;340.0</additional_attributes>
   </element>
 </diagram>
