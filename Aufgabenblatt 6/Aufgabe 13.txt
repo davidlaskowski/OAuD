@@ -1,0 +1,39 @@
+Aufgabe 13
+a)
+Anforderung: 3
+Änderung: 4
+Author: 2
+Anforderungsverwaltung: 2
+
+b)
+int -  ID
+String - Name der Anforderung
+Author -  Author Objekt
+
+c)
+Date - Datum
+String - Kommentar zum Inhalt der Änderung
+int - ID
+String - Neuer Name der Anforderung
+Author - Neues Author Objekt
+
+d)
+ArrayList<Anforderung>
+ArrayList<Aenderung>
+
+e)
+ArrayList in Anforderungsverwaltung
+bei anforderungHinzufuegen entsprechenden Eintrag mit ID,Name,Author in Anfroderungsverwaltung hinzufügen
+
+f)
+Suche nach der in der Methode angegeben ID in Anforderungsliste
+Anpassung des Eintrags in Anforderungsliste
+Hinzufügen Änderungseintrag in Änderungsliste
+
+Aufgabe 14
+a)
+Aktie
+Aktienverwaltung
+Nutzer
+Depotverwaltung
+Depot
