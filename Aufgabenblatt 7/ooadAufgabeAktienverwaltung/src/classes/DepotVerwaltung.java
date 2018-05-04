@@ -1,16 +1,16 @@
 package classes;
 
-
 import control.AktienverwaltungInterfaceIntern;
 import control.DepotverwaltungInterface;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DepotVerwaltung implements DepotverwaltungInterface {
-    List<Depot> depotListe;
+    private Map<Integer, Depot> depotListe;
 
     public DepotVerwaltung() {
-        depotListe = new ArrayList<Depot>();
+        depotListe = new HashMap<>();
     }
     
     @Override

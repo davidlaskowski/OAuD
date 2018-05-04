@@ -2,14 +2,15 @@ package classes;
 
 import control.AktienverwaltungInterface;
 import control.AktienverwaltungInterfaceIntern;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class AktienVerwaltung implements AktienverwaltungInterface,AktienverwaltungInterfaceIntern{
-    private List<Aktie> aktienListe;
+    private Map<Integer, Aktie> aktienListe;
 
     public AktienVerwaltung() {
-        this.aktienListe = new ArrayList<Aktie>();
+        this.aktienListe = new HashMap<Integer, Aktie>();
     }
     
     @Override

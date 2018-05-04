@@ -139,7 +139,7 @@ public class Alle {
     private static void init() {
         if(!initialisiert){
            String path = System.getProperty("java.class.path");
-           // System.out.println("Path: " + path);
+           System.out.println("Path: " + path);
            String[] pfadetmp = path.split(System.getProperty("path.separator"));
             for(String s:pfadetmp){
                 // System.out.println("Teilpfad: " + s);

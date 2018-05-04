@@ -9,6 +9,9 @@ public class Depot {
     private int barResever;
     private List<DepotPosten> depotPostenListe;
 
+    public Depot() {
+    }
+
     public Depot(int id, int kundenNummer, int barResever) {
         this.id = id;
         this.kundenNummer = kundenNummer;
