@@ -1,0 +1,18 @@
+Anpassungen
+Aktienverwaltung
+	- aktieBearbeiten zu einkaufspreisAendern/verkaufspreisAendern um Preise einzelnd anpassen zu können (offensichtlicher)
+	- aktieAnzeigen obsolet
+
+Depotverwaltung
+	- neuesDepot von (Depot, int, int) zu (int, int, int) um Verwantwortlichkeit an passender Stelle zu haben
+	-depotAnzeigen obsolet
+	-depotBearbeiten zu allgemein -> aktienanzahlAendern
+	- neuesDepot hinzugefügt
+
+Sequenzdiagram
+	Neue Aktie anlegen
+		Abgesehen von fehlender id in Signatur weiterhin sinnvoll
+	Neues Depot anlegen
+		Abgesehen von fehlender id in Signatur weiterhin sinnvoll
+	Aktie ändern
+		Aufteilung Einkaufspreis Verkaufspreis fehlt
