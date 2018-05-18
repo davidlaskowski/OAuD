@@ -2,55 +2,84 @@ package classes;
 
 import control.AktienverwaltungInterfaceIntern;
 import control.DepotverwaltungInterface;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DepotVerwaltung implements DepotverwaltungInterface {
+    AktienVerwaltung aktienVerwaltung;
     private Map<Integer, Depot> depotListe;
 
     public DepotVerwaltung() {
-        depotListe = new HashMap<>();
+        this.aktienVerwaltung = new AktienVerwaltung();
+        this.depotListe = new HashMap<>();
     }
-    
+
     @Override
     public boolean aktienanzahlAendern(int depotID, int postenID, int anzahl) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Depot currentDepot = depotListe.get(depotID);
+        if(currentDepot == null)
+            return false;
+        DepotPosten currentDepotPosten = currentDepot.depotPostenSuchen(postenID);
+        if(currentDepotPosten == null)
+            return false;
+        if(currentDepotPosten.getAktie().getEinkaufsPreis() * anzahl > currentDepot.getBarReserven())
+            return false;
+        currentDepotPosten.aktienAnzahlAendern(anzahl);
+        return true;
+        
     }
 
     @Override
     public boolean neuerDepotposten(int depotID, int aktienID, int anzahl) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Depot currentDepot = depotListe.get(depotID);
+        if(currentDepot == null)
+            return false;
+        Aktie currentAktie = aktienVerwaltung.sucheAktie(aktienID);
+        if(currentAktie == null)
+            return false;
+        if(currentAktie.getEinkaufsPreis() * anzahl > currentDepot.getBarReserven())
+            return false;
+        currentDepot.neuenDepotPostenAnlegen(currentAktie, anzahl);
+        return true;
     }
 
     @Override
     public void neuesDepot(int id, int kundennummer, int barreserve) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Depot neuesDepot = new Depot(id, kundennummer, barreserve);
+        depotListe.put(id, neuesDepot);
     }
 
     @Override
-    public void setAktienverwaltung(AktienverwaltungInterfaceIntern aktienverwaltung) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void setAktienverwaltung(AktienverwaltungInterfaceIntern aktienVerwaltung) {
+        this.aktienVerwaltung = (AktienVerwaltung) aktienVerwaltung;
     }
 
     @Override
     public List<List<String>> depots() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        List<List<String>> result = new ArrayList<>();
+        Map<Integer, Depot> map = depotListe;
+        List<Depot> alleDepots = new ArrayList<>(depotListe.values());
+        for(Map.Entry<Integer, Depot> me : map.entrySet()){
+            result.add(me.getValue().toStringList());
+        }
+        return result;
     }
 
     @Override
     public List<List<String>> depotposten(int depotId) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        List<List<String>> result = new ArrayList<>();
+        Map<Integer, DepotPosten> map = depotListe.get(depotId).getDepotPostenListe();
+        for(Map.Entry<Integer, DepotPosten> me : map.entrySet()){
+            result.add(me.getValue().toStringList());
+        }
+        return result;
     }
 
     @Override
-    public List<String> ueberschriftenDepots() {
-        return DepotverwaltungInterface.super.ueberschriftenDepots(); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public List<String> ueberschriftenDepotposten() {
-        return DepotverwaltungInterface.super.ueberschriftenDepotposten(); //To change body of generated methods, choose Tools | Templates.
+    public Depot sucheDepot(int id) {
+        return depotListe.get(id);
     }
     
 }

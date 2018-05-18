@@ -2,11 +2,12 @@ package classes;
 
 import control.AktienverwaltungInterface;
 import control.AktienverwaltungInterfaceIntern;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class AktienVerwaltung implements AktienverwaltungInterface,AktienverwaltungInterfaceIntern{
+public class AktienVerwaltung implements AktienverwaltungInterfaceIntern{
     private Map<Integer, Aktie> aktienListe;
 
     public AktienVerwaltung() {
@@ -15,32 +16,32 @@ public class AktienVerwaltung implements AktienverwaltungInterface,Aktienverwalt
     
     @Override
     public void einkaufspreisAendern(int aktienID, int preisneu) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.aktienListe.get(aktienID).setEinkaufsPreis(preisneu);
     }
 
     @Override
     public void neueAktie(int id, String name, int epreis, int vpreis) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.aktienListe.put(id, new Aktie(id, name, epreis, vpreis));
     }
 
     @Override
     public void verkaufspreisAendern(int aktienID, int preisneu) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.aktienListe.get(aktienID).setVerkaufsPreis(preisneu);
     }
 
     @Override
     public List<List<String>> aktien() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public List<String> ueberschriften() {
-        return AktienverwaltungInterfaceIntern.super.ueberschriften(); //To change body of generated methods, choose Tools | Templates.
+        List<List<String>> result = new ArrayList<>();
+        List<Aktie> alleAktien = new ArrayList<>(aktienListe.values());
+        for(Aktie a : alleAktien){
+            result.add(a.toStringList());
+        }
+        return result;
     }
 
     @Override
     public Aktie sucheAktie(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return aktienListe.get(id);
     }
     
     

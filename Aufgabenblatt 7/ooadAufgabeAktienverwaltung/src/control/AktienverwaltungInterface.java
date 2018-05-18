@@ -1,5 +1,6 @@
 package control;
 
+import classes.Aktie;
 import java.util.Arrays;
 import java.util.List;
 
@@ -29,7 +30,7 @@ public interface AktienverwaltungInterface {
      * @param id Id der gesuchten Aktie
      * @return gefundene Aktie oder null, wenn nicht gefunden
      */
-    //Aktie sucheAktie(int id);
+    Aktie sucheAktie(int id);
 
      /**
      * Der Verkaufspreis einer Aktie mit der Id aktienID wird

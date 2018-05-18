@@ -1,5 +1,6 @@
 package control;
 
+import classes.Depot;
 import java.util.Arrays;
 import java.util.List;
 
@@ -49,7 +50,7 @@ public interface DepotverwaltungInterface {
      * @param id Id des gesuchten Depots
      * @return gefundenes Depot oder null, wenn nicht gefunden
      */
-    //Depot sucheDepot(int id);
+    Depot sucheDepot(int id);
 
         /**
      * Es wird ein Depotposten mit der Id postenID im Depot mit der

@@ -1,38 +1,52 @@
 package classes;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 
 public class Depot {
     private int id;
     private int kundenNummer;
-    private int barResever;
-    private List<DepotPosten> depotPostenListe;
+    private int barReserven;
+    private Map<Integer,DepotPosten> depotPostenListe;
 
     public Depot() {
+        this.depotPostenListe = new HashMap<>();
     }
 
-    public Depot(int id, int kundenNummer, int barResever) {
+    public Depot(int id, int kundenNummer, int barReserven) {
         this.id = id;
         this.kundenNummer = kundenNummer;
-        this.barResever = barResever;
-        this.depotPostenListe = new ArrayList<DepotPosten>();
+        this.barReserven = barReserven;
+        this.depotPostenListe = new HashMap();
+    }
+
+    public int getBarReserven() {
+        return barReserven;
+    }
+    
+    
+
+    public Map<Integer, DepotPosten> getDepotPostenListe() {
+        return this.depotPostenListe;
     }
     
     public DepotPosten depotPostenSuchen(int index){
-        return null;
+        return this.depotPostenListe.get(index);
     }
     
-    public void neuenDepotPostenAnlegen(int index, int aktienIndex){
-        
+    public void neuenDepotPostenAnlegen(Aktie aktie, int anzahl){
+        DepotPosten neuerDepotPosten = new DepotPosten(this.id, this.id * 1000 + this.depotPostenListe.size(),aktie, anzahl);
+        this.depotPostenListe.put(this.depotPostenListe.size(), neuerDepotPosten);
     }
     
-    public boolean gibtEsAktieId(int index){
-        return false;
+    public List<String> toStringList(){
+        List result = new ArrayList<>();
+        result.add(Integer.toString(this.id));
+        result.add(Integer.toString(this.kundenNummer));
+        result.add(Integer.toString(this.barReserven));
+        return result;
     }
-    
-    public void pruefungBarReserve(){
-        
-    }
-    
 }
