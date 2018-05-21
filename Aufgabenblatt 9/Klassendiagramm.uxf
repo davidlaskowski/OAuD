@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>730</x>
+      <y>260</y>
+      <w>220</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Projektwhiteboard
+--
+- Projektname: String
+--
++ Projektwhiteboard(String): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>240</y>
+      <w>190</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Mitarbeiter
+--
+- Mitarbeiternummer: int
+- Name: String
+--
++ Mitarbeiter(int, String): void
++ anmelden():void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>260</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Abteilungswhiteboard
+--
+- Abteilungsname: String
+- Abteilungsnummer: int
+--
++ Projektwhiteboard(String): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>150</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Boardverwaltung
+--
+--
++ Boardverwaltung(): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>90</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Mirarbeiterverwaltung
+--
+--
++ Mirarbeiterverwaltung(): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

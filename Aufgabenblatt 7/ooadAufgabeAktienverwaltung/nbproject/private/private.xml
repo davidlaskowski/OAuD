@@ -2,17 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/boundary/Alle.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/boundary/GUI.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/control/AktienverwaltungInterfaceIntern.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/control/DepotverwaltungInterface.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/tabellenprototyp/Tabellenprototyp.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/classes/AktienVerwaltung.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/classes/Aktie.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/classes/DepotPosten.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/classes/DepotVerwaltung.java</file>
-            <file>file:/C:/Users/David/Desktop/OAuD/Aufgabenblatt%207/ooadAufgabeAktienverwaltung/src/classes/Depot.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
