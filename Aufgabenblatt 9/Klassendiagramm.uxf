@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>730</x>
-      <y>260</y>
-      <w>220</w>
-      <h>80</h>
+      <x>288</x>
+      <y>232</y>
+      <w>176</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Projektwhiteboard
 --
-- Projektname: String
+- projektname: String
+- nachricht: String
 --
 + Projektwhiteboard(String): void
++ getNachricht(): String
++ setNachricht(String): void
++ nachrichtAusgeben(): void
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>240</y>
-      <w>190</w>
-      <h>110</h>
+      <x>16</x>
+      <y>232</y>
+      <w>152</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Mitarbeiter
 --
@@ -31,55 +35,193 @@ style=autoresize</panel_attributes>
 - Name: String
 --
 + Mitarbeiter(int, String): void
-+ anmelden():void
++ nachrichtAusgeben(): void
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>260</y>
-      <w>220</w>
-      <h>100</h>
+      <x>608</x>
+      <y>432</y>
+      <w>176</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Abteilungswhiteboard
 --
-- Abteilungsname: String
-- Abteilungsnummer: int
+- abteilungsname: String
+- abteilungsnummer: int
+- nachricht: String
 --
 + Projektwhiteboard(String): void
++ getNachricht(): String
++ setNachricht(String): void
 style=autoresize</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>150</y>
-      <w>170</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Boardverwaltung
---
---
-+ Boardverwaltung(): void
-style=autoresize</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>20</x>
-      <y>90</y>
+      <x>288</x>
+      <y>32</y>
       <w>200</w>
-      <h>60</h>
+      <h>88</h>
     </coordinates>
-    <panel_attributes>Mirarbeiterverwaltung
+    <panel_attributes>Projektboardverwaltung
 --
 --
-+ Mirarbeiterverwaltung(): void
++ Projektboardverwaltung(): void
++ benachrichtigen():void
++ anmelden(MitrarbeiterInterface):void
++ abmelden(MitrarbeiterInterface):void
 style=autoresize</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>96</x>
+      <y>128</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>32</y>
+      <w>152</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt; 
+MitrarbeiterInterface
+--
+- Mitarbeiternummer: int
+- Name: String
+--
++ Mitarbeiter(int, String): void
++ nachrichtAusgeben(): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>264</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=-pboards *</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>112</y>
+      <w>24</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>48</y>
+      <w>136</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* -mitarbeiter</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>232</y>
+      <w>232</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Abteilungsboardverwaltung
+--
+--
++ Abteilungsboardve(): void
++ benachrichtigen():void
++ anmelden(ProjektwhiteboardInterface):void
++ abmelden(ProjektwhiteboardInterface):void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>336</y>
+      <w>208</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=-aboards *</panel_attributes>
+    <additional_attributes>240.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>232</y>
+      <w>176</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt; 
+ProjektwhiteboardInterface
+--
+- Projektname: String
+--
++ Projektwhiteboard(String): void
++ nachrichtAusgeben(): void
+style=autoresize</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>272</y>
+      <w>96</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>272</y>
+      <w>152</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=* -projektwhiteboard</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>776</x>
+      <y>312</y>
+      <w>152</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;200.0;10.0;200.0</additional_attributes>
   </element>
 </diagram>
