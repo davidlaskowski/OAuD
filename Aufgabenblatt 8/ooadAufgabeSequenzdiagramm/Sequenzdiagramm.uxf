@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>150</x>
-      <y>0</y>
+      <x>130</x>
+      <y>10</y>
       <w>70</w>
       <h>110</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>300</x>
-      <y>20</y>
+      <x>280</x>
+      <y>30</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
@@ -27,8 +27,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>50</y>
+      <x>300</x>
+      <y>60</y>
       <w>30</w>
       <h>1200</h>
     </coordinates>
@@ -38,8 +38,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>20</y>
+      <x>170</x>
+      <y>30</y>
       <w>130</w>
       <h>40</h>
     </coordinates>
@@ -50,8 +50,8 @@ newMain()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>90</y>
+      <x>150</x>
+      <y>100</y>
       <w>30</w>
       <h>1160</h>
     </coordinates>
@@ -61,8 +61,8 @@ newMain()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>100</y>
+      <x>150</x>
+      <y>110</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -73,8 +73,8 @@ Eingabe: 2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>420</x>
-      <y>70</y>
+      <x>400</x>
+      <y>80</y>
       <w>80</w>
       <h>40</h>
     </coordinates>
@@ -85,8 +85,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>70</y>
+      <x>300</x>
+      <y>80</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -97,8 +97,8 @@ newModel()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>120</y>
+      <x>150</x>
+      <y>130</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -109,8 +109,8 @@ Eingabe: Wert</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>520</x>
-      <y>140</y>
+      <x>500</x>
+      <y>150</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -121,8 +121,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>140</y>
+      <x>300</x>
+      <y>150</y>
       <w>220</w>
       <h>40</h>
     </coordinates>
@@ -133,8 +133,8 @@ newController(m, "Wert")</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>190</y>
+      <x>150</x>
+      <y>200</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -145,8 +145,8 @@ Eingabe: 2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>210</y>
+      <x>150</x>
+      <y>220</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -157,8 +157,8 @@ Eingabe: Wert2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>230</y>
+      <x>300</x>
+      <y>240</y>
       <w>330</w>
       <h>40</h>
     </coordinates>
@@ -169,8 +169,8 @@ newController(m, "Wert2")</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>630</x>
-      <y>230</y>
+      <x>610</x>
+      <y>240</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -181,8 +181,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>100</y>
+      <x>430</x>
+      <y>110</y>
       <w>30</w>
       <h>1130</h>
     </coordinates>
@@ -192,8 +192,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
-      <y>170</y>
+      <x>540</x>
+      <y>180</y>
       <w>30</w>
       <h>1090</h>
     </coordinates>
@@ -203,8 +203,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>670</x>
-      <y>260</y>
+      <x>650</x>
+      <y>270</y>
       <w>30</w>
       <h>990</h>
     </coordinates>
@@ -214,8 +214,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>270</y>
+      <x>150</x>
+      <y>280</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -226,8 +226,8 @@ Eingabe: 1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>290</y>
+      <x>150</x>
+      <y>300</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -238,8 +238,8 @@ Eingabe: #</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>310</y>
+      <x>300</x>
+      <y>320</y>
       <w>480</w>
       <h>40</h>
     </coordinates>
@@ -250,8 +250,8 @@ newView(m, "#")</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>780</x>
-      <y>310</y>
+      <x>760</x>
+      <y>320</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
@@ -262,8 +262,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>340</y>
+      <x>780</x>
+      <y>350</y>
       <w>40</w>
       <h>870</h>
     </coordinates>
@@ -273,8 +273,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>360</y>
+      <x>150</x>
+      <y>370</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -285,8 +285,8 @@ Eingabe: 3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>380</y>
+      <x>150</x>
+      <y>390</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -297,8 +297,8 @@ Eingabe: 1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>400</y>
+      <x>300</x>
+      <y>410</y>
       <w>270</w>
       <h>40</h>
     </coordinates>
@@ -309,8 +309,8 @@ c1.eingabeSteuern()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>420</y>
+      <x>150</x>
+      <y>430</y>
       <w>420</w>
       <h>40</h>
     </coordinates>
@@ -321,8 +321,8 @@ c1.eingabeSteuern()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>460</y>
+      <x>150</x>
+      <y>470</y>
       <w>420</w>
       <h>40</h>
     </coordinates>
@@ -333,8 +333,8 @@ Eingabe: 7</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>490</y>
+      <x>430</x>
+      <y>500</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
@@ -345,8 +345,8 @@ m.wertAendern(7)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>340</y>
+      <x>430</x>
+      <y>350</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -357,20 +357,20 @@ m.listenerHinzufuegen(v1)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>510</y>
+      <x>430</x>
+      <y>520</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-v1.wertaenderung()</panel_attributes>
+v1.wertaenderung(7)</panel_attributes>
     <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>580</y>
+      <x>150</x>
+      <y>590</y>
       <w>660</w>
       <h>40</h>
     </coordinates>
@@ -381,8 +381,8 @@ v1.wertaenderung()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>530</y>
+      <x>430</x>
+      <y>540</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -393,8 +393,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>550</y>
+      <x>430</x>
+      <y>560</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -405,8 +405,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>620</y>
+      <x>150</x>
+      <y>630</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -417,8 +417,8 @@ Eingabe: 1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>640</y>
+      <x>150</x>
+      <y>650</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -429,8 +429,8 @@ Eingabe: *</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>660</y>
+      <x>300</x>
+      <y>670</y>
       <w>630</w>
       <h>40</h>
     </coordinates>
@@ -441,8 +441,8 @@ newView(m, "*")</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>690</y>
+      <x>430</x>
+      <y>700</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
@@ -453,8 +453,8 @@ m.listenerHinzufuegen(v2)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>710</y>
+      <x>150</x>
+      <y>720</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -465,8 +465,8 @@ Eingabe: 3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>730</y>
+      <x>150</x>
+      <y>740</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -477,8 +477,8 @@ Eingabe: 2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>750</y>
+      <x>300</x>
+      <y>760</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -489,8 +489,8 @@ c2.eingabeSteuern()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>770</y>
+      <x>150</x>
+      <y>780</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
@@ -501,8 +501,8 @@ c2.eingabeSteuern()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>930</x>
-      <y>660</y>
+      <x>910</x>
+      <y>670</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
@@ -513,8 +513,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>690</y>
+      <x>930</x>
+      <y>700</y>
       <w>30</w>
       <h>500</h>
     </coordinates>
@@ -524,8 +524,8 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>810</y>
+      <x>150</x>
+      <y>820</y>
       <w>420</w>
       <h>40</h>
     </coordinates>
@@ -536,32 +536,32 @@ Eingabe: 5</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>840</y>
+      <x>430</x>
+      <y>850</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-m.wertAendern(7)</panel_attributes>
+m.wertAendern(5)</panel_attributes>
     <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>970</y>
+      <x>430</x>
+      <y>980</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-v2.wertaenderung()</panel_attributes>
+v2.wertaenderung(5)</panel_attributes>
     <additional_attributes>10.0;20.0;510.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>990</y>
+      <x>430</x>
+      <y>1000</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
@@ -572,8 +572,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>1010</y>
+      <x>430</x>
+      <y>1020</y>
       <w>530</w>
       <h>40</h>
     </coordinates>
@@ -584,8 +584,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>1040</y>
+      <x>150</x>
+      <y>1050</y>
       <w>810</w>
       <h>40</h>
     </coordinates>
@@ -596,20 +596,20 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>870</y>
+      <x>430</x>
+      <y>880</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-v1.wertaenderung()</panel_attributes>
+v1.wertaenderung(5)</panel_attributes>
     <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>890</y>
+      <x>430</x>
+      <y>900</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -620,8 +620,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>910</y>
+      <x>430</x>
+      <y>920</y>
       <w>380</w>
       <h>40</h>
     </coordinates>
@@ -632,8 +632,8 @@ m.getWert()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>930</y>
+      <x>150</x>
+      <y>940</y>
       <w>660</w>
       <h>40</h>
     </coordinates>
