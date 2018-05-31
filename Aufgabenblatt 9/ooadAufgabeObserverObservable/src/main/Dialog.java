@@ -8,6 +8,10 @@ import java.util.List;
 // zu ergaenzen.
 
 public class Dialog {
+    
+    public Dialog(){
+        
+    }
 
 
     public int auswahl() {
