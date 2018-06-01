@@ -1,5 +1,12 @@
 package main;
 
+import Kaempfer.Xenia;
+import Ausruestung.Waffe;
+import Ausruestung.Ruestung;
+import Kaempfer.SchwarzerRitter;
+import Kaempfer.Conan;
+import Kaempfer.Blobb;
+import Kaempfer.Kaempfer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -115,9 +122,39 @@ public class Main {
     }
 
     private void kaempfen() {
-        // TODO
-        //hier fehlt was 
-        //missing code
+        // TODO        
+        boolean end = false;
+        if(this.kaempfer.isEmpty()){
+                System.out.println("Du hast keine Kaemper!");
+                end = true;
+            }else{
+            while(!end){
+                for(int i = 0; i < this.kaempfer.size(); i++){
+                    if(!end){
+                        int angriff = this.kaempfer.get(i).kaempfen();
+                        this.sr.abwehren(angriff);
+                        if(this.sr.getGesundheit() <= 0){
+                            System.out.println(this.kaempfer.get(i).toStringKampf());
+                            System.out.println(this.sr.toStringKampf());
+                            System.out.println("Du hast gewonnen!");
+                            end = true;
+                        }else{
+                            angriff = this.sr.kaempfen();
+                            this.kaempfer.get(i).abwehren(angriff);
+                            System.out.println(this.kaempfer.get(i).toStringKampf());
+                            System.out.println(this.sr.toStringKampf());
+                            if(this.kaempfer.get(i).getGesundheit()<= 0){
+                                this.kaempfer.remove(i);
+                                if(this.kaempfer.isEmpty()) {
+                                    System.out.println("Du hast verloren!");
+                                    end = true;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         System.out.println(Messages.getString("Main.25")); //$NON-NLS-1$
     }
