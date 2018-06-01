@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Boards;
+package Mitarbeiter;
 
 /**
  *
  * @author David
  */
-public interface Board {
-    
+public interface MitarbeiterInterface {
+    public void nachrichtAusgeben(String projektName);
 }

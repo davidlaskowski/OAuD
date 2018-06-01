@@ -1,5 +1,11 @@
 package main;
 
+import Boards.AbteilungsBoardVerwaltung;
+import Boards.AbteilungsWhiteBoard;
+import Boards.ProjektBoardVerwaltung;
+import Boards.ProjektWhiteBoard;
+import Mitarbeiter.Mitarbeiter;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -8,11 +14,15 @@ import java.util.List;
 // zu ergaenzen.
 
 public class Dialog {
+    List<Mitarbeiter> mitarbeiterList;
+    List<ProjektWhiteBoard> projektWhiteBoards;
+    List<AbteilungsWhiteBoard> abteilungsWhiteBoards;
     
     public Dialog(){
-        
+        this.mitarbeiterList = new ArrayList<>();
+        this.projektWhiteBoards = new ArrayList<>();
+        this.abteilungsWhiteBoards = new ArrayList<>();
     }
-
 
     public int auswahl() {
         System.out.print("Was wollen Sie machen?\n"
@@ -84,15 +94,16 @@ public class Dialog {
         String name = Eingabe.leseString();
         System.out.print("Mitarbeiternummer: ");
         int minr = Eingabe.leseInt();
-        // TODO
+        Mitarbeiter mitarbeiter = new Mitarbeiter(minr, name);
+        this.mitarbeiterList.add(mitarbeiter);
         
     }
 
     public void projektwhiteboardHinzufuegen() {
         System.out.print("Projekt: ");
         String projekt = Eingabe.leseString();
-        // TODO
-        
+        ProjektWhiteBoard projektWhiteBoard = new ProjektWhiteBoard(projekt);
+        this.projektWhiteBoards.add(projektWhiteBoard);
     }
 
     public void abteilungswhiteboardHinzufuegen() {
@@ -100,50 +111,92 @@ public class Dialog {
         String abteilung = Eingabe.leseString();
         System.out.print("Abteilungsnummer: ");
         int abtnr = Eingabe.leseInt();
-        // TODO
+        AbteilungsWhiteBoard abteilungsWhiteBoard = new AbteilungsWhiteBoard(abteilung, abtnr);
+        this.abteilungsWhiteBoards.add(abteilungsWhiteBoard);
         
     }
 
     public void mitarbeiterAnmelden() {
         System.out.println("Welcher Mitarbeiter?");
-        // TODO        
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.mitarbeiterList.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.mitarbeiterList.get(i).toString());
+        }
+        int mitarbeiterAuswahl = Eingabe.leseInt();
+        if(mitarbeiterAuswahl == 0)
+            return;
         
         
         System.out.println("Bei welchem Projekt?");
-        // TODO
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.projektWhiteBoards.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.projektWhiteBoards.get(i).toString());
+        }
+        int projektAuswahl = Eingabe.leseInt();
+        if(projektAuswahl == 0)
+            return;
+        this.mitarbeiterList.get(mitarbeiterAuswahl-1).neuesProjektBoard(this.projektWhiteBoards.get(projektAuswahl-1));
     }
 
     public void projektAnmelden() {
         System.out.println("Welches Projekt?");
-        // TODO
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.projektWhiteBoards.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.projektWhiteBoards.get(i).toString());
+        }
+        int projektAuswahl = Eingabe.leseInt();
+        if(projektAuswahl == 0)
+            return;
         
         
         System.out.println("Bei welcher Abteilung?");
-        // TODO
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.abteilungsWhiteBoards.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.abteilungsWhiteBoards.get(i).toString());
+        }
+        int abteilungsAuswahl = Eingabe.leseInt();
+        if(abteilungsAuswahl == 0)
+            return;
+        this.projektWhiteBoards.get(projektAuswahl-1).neuesAbteilungsWhiteBoard(this.abteilungsWhiteBoards.get(abteilungsAuswahl-1));
     }
 
     public void projektwhiteboardBeschreiben() {
         System.out.println("Welches Projekt?");
-        // TODO
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.projektWhiteBoards.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.projektWhiteBoards.get(i).toString());
+        }
+        int projektAuswahl = Eingabe.leseInt();
+        if(projektAuswahl == 0)
+            return;
         
         System.out.print("Projektnachricht: ");
         String nachricht = Eingabe.leseString();
-        // TODO
+        this.projektWhiteBoards.get(projektAuswahl-1).setNachricht(nachricht);
 
     }
 
     public void abteilungswhiteboardBeschreiben() {
         System.out.println("Welche Abteilung?");
-        // TODO
+        System.out.println("(0) Aktion abbrechen");
+        for(int i = 0; i < this.abteilungsWhiteBoards.size(); i++){
+            System.out.println("(" + (i+1) + ") " + this.abteilungsWhiteBoards.get(i).toString());
+        }
+        int abteilungsAuswahl = Eingabe.leseInt();
+        if(abteilungsAuswahl == 0)
+            return;
         
         System.out.print("Abteilungsnachricht: ");
         String nachricht = Eingabe.leseString();
-        // TODO
+        this.abteilungsWhiteBoards.get(abteilungsAuswahl-1).setNachricht(nachricht);
         
     }
     
     public void uebersichtAnzeigen(){
-        // TODO
+        System.out.println(mitarbeiterList);
+        System.out.println(projektWhiteBoards);
+        System.out.println(abteilungsWhiteBoards);
+
         
     }
 }

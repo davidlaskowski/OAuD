@@ -9,6 +9,7 @@ package Boards;
  *
  * @author David
  */
-public class ProjektBoard {
+public interface ProjektWhiteBoardInterface {
+    public void nachrichtAusgeben(String nachricht);
     
 }
