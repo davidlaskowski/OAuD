@@ -26,6 +26,7 @@ public class AbteilungsWhiteBoard extends AbteilungsBoardVerwaltung {
         this.nachricht = nachricht;
         super.benachrichtigen();
     }
+    
 
     @Override
     public String toString() {

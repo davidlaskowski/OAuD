@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>11</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>320</y>
-      <w>304</w>
-      <h>112</h>
+      <x>429</x>
+      <y>429</y>
+      <w>418</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>Projektwhiteboard
 --
@@ -24,10 +24,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>48</x>
-      <y>320</y>
-      <w>240</w>
-      <h>104</h>
+      <x>0</x>
+      <y>429</y>
+      <w>330</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>Mitarbeiter
 --
@@ -43,10 +43,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>784</x>
-      <y>520</y>
-      <w>176</w>
-      <h>88</h>
+      <x>1012</x>
+      <y>704</y>
+      <w>242</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>Abteilungswhiteboard
 --
@@ -61,10 +61,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>120</y>
-      <w>200</w>
-      <h>112</h>
+      <x>429</x>
+      <y>154</y>
+      <w>275</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>Projektboardverwaltung
 --
@@ -81,10 +81,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>128</x>
-      <y>176</y>
-      <w>24</w>
-      <h>160</h>
+      <x>110</x>
+      <y>231</y>
+      <w>33</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
@@ -92,10 +92,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>56</x>
-      <y>120</y>
-      <w>176</w>
-      <h>64</h>
+      <x>11</x>
+      <y>154</y>
+      <w>242</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt; 
 MitrarbeiterInterface
@@ -108,10 +108,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>352</y>
-      <w>96</w>
-      <h>32</h>
+      <x>319</x>
+      <y>473</y>
+      <w>132</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=-pboards *</panel_attributes>
@@ -120,10 +120,10 @@ m1=-pboards *</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>224</y>
-      <w>24</w>
-      <h>112</h>
+      <x>561</x>
+      <y>297</y>
+      <w>33</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
@@ -131,10 +131,10 @@ m1=-pboards *</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
-      <y>136</y>
-      <w>152</w>
-      <h>32</h>
+      <x>242</x>
+      <y>176</y>
+      <w>209</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=* -mitarbeiter</panel_attributes>
@@ -143,10 +143,10 @@ m1=* -mitarbeiter</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1096</x>
-      <y>312</y>
-      <w>232</w>
-      <h>128</h>
+      <x>1441</x>
+      <y>418</y>
+      <w>319</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>Abteilungsboardverwaltung
 --
@@ -164,10 +164,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>488</x>
-      <y>424</y>
-      <w>312</w>
-      <h>136</h>
+      <x>605</x>
+      <y>572</y>
+      <w>429</w>
+      <h>187</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=-aboards *</panel_attributes>
@@ -176,10 +176,10 @@ m1=-aboards *</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>784</x>
-      <y>320</y>
-      <w>176</w>
-      <h>64</h>
+      <x>1012</x>
+      <y>429</y>
+      <w>242</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt; 
 ProjektwhiteboardInterface
@@ -192,10 +192,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>360</y>
-      <w>144</w>
-      <h>24</h>
+      <x>836</x>
+      <y>484</y>
+      <w>198</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
@@ -203,10 +203,10 @@ style=autoresize</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>952</x>
-      <y>352</y>
-      <w>160</w>
-      <h>32</h>
+      <x>1243</x>
+      <y>473</y>
+      <w>220</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=* -projektwhiteboard</panel_attributes>
@@ -215,10 +215,10 @@ m1=* -projektwhiteboard</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>952</x>
-      <y>432</y>
-      <w>232</w>
-      <h>120</h>
+      <x>1243</x>
+      <y>583</y>
+      <w>319</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>270.0;10.0;270.0;130.0;10.0;130.0</additional_attributes>
